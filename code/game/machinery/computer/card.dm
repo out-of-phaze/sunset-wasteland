@@ -12,6 +12,8 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 	var/mode = 0
 	var/target_dept = 0 //Which department this computer has access to. 0=all departments
 
+	var/ui_name = "Access"
+
 	//Jobs that you can choose in ID console.
 	var/list/job_list
 
@@ -199,63 +201,13 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 			carddesc += "<b>registered_name:</b> [target_owner]</span>"
 			jobs += "<b>Assignment:</b> [target_rank] (<a href='?src=[REF(src)];choice=demote'>Demote</a>)</span>"
 
-		var/list/accesses = list()
-		if(istype(src, /obj/machinery/computer/card/centcom)) // REE
-			accesses += "<h5>Central Command:</h5>"
-			for(var/A in get_all_centcom_access())
-				if(A in inserted_modify_id.access)
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_centcom_access_desc(A), " ", "&nbsp")]</font></a> "
-				else
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_centcom_access_desc(A), " ", "&nbsp")]</a> "
-		else if(istype(src, /obj/machinery/computer/card/ncr)) // Ree, I guess
-			accesses += "<h5>New Californian Republic:</h5>"
-			for(var/A in get_all_ncr_access())
-				if(A in inserted_modify_id.access)
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_ncr_access_desc(A), " ", "&nbsp")]</font></a> "
-				else
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_ncr_access_desc(A), " ", "&nbsp")]</a> "
-		else if(istype(src, /obj/machinery/computer/card/legion))
-			accesses += "<h5>Caesar's Legion:</h5>"
-			for(var/A in get_all_legion_access())
-				if(A in inserted_modify_id.access)
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_legion_access_desc(A), " ", "&nbsp")]</font></a> "
-				else
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_legion_access_desc(A), " ", "&nbsp")]</a> "
-		else if(istype(src, /obj/machinery/computer/card/enclave))
-			accesses += "<h5>Enclave:</h5>"
-			for(var/A in get_all_enclave_access())
-				if(A in inserted_modify_id.access)
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_enclave_access_desc(A), " ", "&nbsp")]</font></a> "
-				else
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_enclave_access_desc(A), " ", "&nbsp")]</a> "
-		else if(istype(src, /obj/machinery/computer/card/bos))
-			accesses += "<h5>Brotherhood of Steel:</h5>"
-			for(var/A in get_all_bos_access())
-				if(A in inserted_modify_id.access)
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_bos_access_desc(A), " ", "&nbsp")]</font></a> "
-				else
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_bos_access_desc(A), " ", "&nbsp")]</a> "
-		else
-			accesses += {"<div align='center'><b>Access</b></div>
-				<table style='width:100%'>
-				<tr>"}
-			for(var/i = 1; i <= 7; i++)
-				if(authenticated == 1 && !(i in region_access))
-					continue
-				accesses += "<td style='width:14%'><b>[get_region_accesses_name(i)]:</b></td>"
-			accesses += "</tr><tr>"
-			for(var/i = 1; i <= 7; i++)
-				if(authenticated == 1 && !(i in region_access))
-					continue
-				accesses += "<td style='width:14%' valign='top'>"
-				for(var/A in get_region_accesses(i))
-					if(A in inserted_modify_id.access)
-						accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_access_desc(A), " ", "&nbsp")]</font></a> "
-					else
-						accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_access_desc(A), " ", "&nbsp")]</a> "
-					accesses += "<br>"
-				accesses += "</td>"
-			accesses += "</tr></table>"
+		var/list/accesses = list("<h5>[ui_name]</h5>")
+		for(var/access in get_accesses())
+			if(access in inserted_modify_id.access)
+				accesses += "<a href='?src=[REF(src)];choice=access;access_target=[access];allowed=0'><font color=\"6bc473\">[replacetext(get_access_descs(access), " ", "&nbsp")]</font></a> "
+			else
+				accesses += "<a href='?src=[REF(src)];choice=access;access_target=[access];allowed=1'>[replacetext(get_access_descs(access), " ", "&nbsp")]</a> "
+
 		body = "[carddesc.Join()]<br>[jobs.Join()]<br><br>[accesses.Join()]<hr>" //CHECK THIS
 
 	if(!authenticated)
@@ -349,19 +301,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 				if(authenticated)
 					var/access_type = text2num(href_list["access_target"])
 					var/access_allowed = text2num(href_list["allowed"])
-					var/list/access_types
-					if(istype(src, /obj/machinery/computer/card/centcom))
-						access_types = get_all_centcom_access()
-					else if(istype(src, /obj/machinery/computer/card/ncr))
-						access_types = get_all_ncr_access()
-					else if(istype(src, /obj/machinery/computer/card/legion))
-						access_types = get_all_legion_access()
-					else if(istype(src, /obj/machinery/computer/card/enclave))
-						access_types = get_all_enclave_access()
-					else if(istype(src, /obj/machinery/computer/card/bos))
-						access_types = get_all_bos_access()
-					else
-						access_types = get_all_accesses()
+					var/list/access_types = get_accesses()
 
 					if(access_type in access_types)
 						inserted_modify_id.access -= access_type
@@ -483,6 +423,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 
 /obj/machinery/computer/card/ncr
 	name = "\improper NCR identification console"
+	ui_name = "New California Republic"
 	circuit = /obj/item/circuitboard/computer/card/ncr
 	// The job list is here so only specific titles are allowed.
 	job_list = list(
@@ -501,6 +442,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 
 /obj/machinery/computer/card/legion
 	name = "\improper Legion identification console"
+	ui_name = "Caesar's Legion"
 	circuit = /obj/item/circuitboard/computer/card/legion
 	// tl;dr - We don't need more Centurions.
 	job_list = list(
@@ -518,6 +460,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 
 /obj/machinery/computer/card/enclave
 	name = "\improper Enclave identification console"
+	ui_name = "Enclave"
 	circuit = /obj/item/circuitboard/computer/card/enclave
 	job_list = list(
 		"Enclave Sergeant",
@@ -532,6 +475,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 
 /obj/machinery/computer/card/bos
 	name = "\improper Brotherhood of Steel identification console"
+	ui_name = "Brotherhood of Steel"
 	circuit = /obj/item/circuitboard/computer/card/bos
 	job_list = list(
 		"Paladin",
@@ -542,8 +486,44 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 		"Initiate",
 		)
 	job_req = list(
-		"Elder",
-		"Head Paladin",
-		"Head Scribe",
-		"Head Knight",
+		"Baron",
+		"Castellan",
+		"Knight-Commander",
+		"Keeper",
 		)
+
+/obj/machinery/computer/card/proc/get_accesses()
+	return get_all_accesses()
+
+/obj/machinery/computer/card/centcom/get_accesses()
+	return get_all_centcom_access()
+
+/obj/machinery/computer/card/ncr/get_accesses()
+	return get_all_ncr_access()
+
+/obj/machinery/computer/card/legion/get_accesses()
+	return get_all_legion_access()
+
+/obj/machinery/computer/card/enclave/get_accesses()
+	return get_all_enclave_access()
+
+/obj/machinery/computer/card/bos/get_accesses()
+	return get_all_bos_access()
+
+/obj/machinery/computer/card/proc/get_access_descs(access)
+	return get_access_desc(access)
+
+/obj/machinery/computer/card/centcom/get_access_descs(access)
+	return get_centcom_access_desc(access)
+
+/obj/machinery/computer/card/ncr/get_access_descs(access)
+	return get_ncr_access_desc(access)
+
+/obj/machinery/computer/card/legion/get_access_descs(access)
+	return get_legion_access_desc(access)
+
+/obj/machinery/computer/card/bos/get_access_descs(access)
+	return get_bos_access_desc(access)
+
+/obj/machinery/computer/card/enclave/get_access_descs(access)
+	return get_enclave_access_desc(access)

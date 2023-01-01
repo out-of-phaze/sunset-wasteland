@@ -746,9 +746,8 @@
 /turf/open/indestructible/ground/outside/water,
 /area/f13/caves)
 "aoY" = (
-/obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
+/obj/structure/rack,
 /turf/open/floor/plasteel/darkred/side,
 /area/f13/brotherhood/armory)
 "apc" = (
@@ -971,23 +970,6 @@
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
 "aDq" = (
-/obj/item/clothing/suit/armor/f13/combat/brotherhood,
-/obj/item/clothing/suit/armor/f13/combat/brotherhood,
-/obj/item/clothing/suit/armor/f13/combat/brotherhood,
-/obj/item/clothing/suit/armor/f13/combat/brotherhood,
-/obj/item/clothing/mask/gas/sechailer/swat,
-/obj/item/clothing/mask/gas/sechailer/swat,
-/obj/item/clothing/head/helmet/f13/combat/brotherhood,
-/obj/item/clothing/head/helmet/f13/combat/brotherhood,
-/obj/item/clothing/head/helmet/f13/combat/brotherhood,
-/obj/item/clothing/head/helmet/f13/combat/brotherhood,
-/obj/item/clothing/mask/gas/sechailer/swat,
-/obj/item/clothing/mask/gas/sechailer/swat,
-/obj/item/storage/belt/military,
-/obj/item/storage/belt/military,
-/obj/item/storage/belt/military,
-/obj/item/storage/belt/military,
-/obj/item/storage/belt/military,
 /obj/structure/closet{
 	anchored = 1;
 	name = "formal attire closet"
@@ -1046,11 +1028,6 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/tunnel)
 "aGN" = (
-/obj/item/clothing/head/f13/boscap,
-/obj/item/clothing/head/f13/boscap,
-/obj/item/clothing/head/f13/boscap,
-/obj/item/clothing/head/f13/boscap,
-/obj/item/clothing/head/f13/boscap,
 /obj/structure/closet{
 	anchored = 1;
 	name = "formal attire closet"
@@ -1202,11 +1179,6 @@
 	},
 /area/f13/building/massfusion)
 "aTI" = (
-/obj/item/circuitboard/machine/emitter/siege,
-/obj/item/circuitboard/machine/emitter/siege,
-/obj/item/circuitboard/machine/emitter/siege,
-/obj/item/circuitboard/machine/emitter/siege,
-/obj/structure/closet/crate/secure/weapon,
 /obj/effect/turf_decal/bot_red,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/darkred/side{
@@ -1279,7 +1251,6 @@
 	},
 /area/f13/building/massfusion)
 "aYb" = (
-/obj/machinery/workbench/forge,
 /turf/open/floor/plasteel/darkred/side,
 /area/f13/brotherhood/armory)
 "aZt" = (
@@ -1316,6 +1287,11 @@
 	dir = 5
 	},
 /area/f13/brotherhood/archives)
+"bfI" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/darkred/side,
+/area/f13/brotherhood/armory)
 "bgi" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 9
@@ -5232,7 +5208,6 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/workbench/advanced,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 1
 	},
@@ -6447,21 +6422,6 @@
 /obj/item/circuitboard/machine/biogenerator,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/f13/brotherhood)
-"cTr" = (
-/obj/item/clothing/gloves/color/white/bos,
-/obj/item/clothing/gloves/color/white/bos,
-/obj/item/clothing/gloves/color/white/bos,
-/obj/item/clothing/gloves/color/white/bos,
-/obj/item/clothing/gloves/color/white/bos,
-/obj/structure/closet{
-	anchored = 1;
-	name = "formal attire closet"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 8
-	},
-/area/f13/brotherhood/armory)
 "cTM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack/shelf_metal,
@@ -7751,18 +7711,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/tunnel/bighorn)
-"eFw" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/item/stack/sheet/prewar/five,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/darkred/side,
-/area/f13/brotherhood/armory)
 "eFV" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
@@ -7917,19 +7865,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
-"eOS" = (
-/obj/structure/rack,
-/obj/item/pda,
-/obj/item/pda,
-/obj/item/pda,
-/obj/item/pda,
-/obj/item/pda,
-/obj/item/pda,
-/obj/item/pda,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 8
-	},
-/area/f13/brotherhood/armory)
 "ePX" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor6-old"
@@ -8729,8 +8664,6 @@
 	dir = 1
 	},
 /obj/structure/rack,
-/obj/item/clothing/suit/armor/f13/combat/environmental,
-/obj/item/clothing/head/helmet/f13/combat/environmental,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 1
@@ -8900,13 +8833,6 @@
 	dir = 6
 	},
 /area/f13/brotherhood)
-"gxz" = (
-/obj/machinery/flasher/portable,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 10
-	},
-/area/f13/brotherhood/armory)
 "gxO" = (
 /obj/structure/closet/crate,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -9069,13 +8995,6 @@
 	dir = 9
 	},
 /area/f13/brotherhood)
-"gGe" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superlow,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 4
-	},
-/area/f13/brotherhood/armory)
 "gGI" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
@@ -9631,10 +9550,6 @@
 /area/f13/tunnel)
 "hAz" = (
 /obj/structure/rack,
-/obj/item/storage/box/handcuffs{
-	pixel_x = 3;
-	pixel_y = 8
-	},
 /turf/open/floor/plasteel/darkred/side{
 	dir = 4
 	},
@@ -9821,11 +9736,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/tunnel)
-"hMQ" = (
-/obj/machinery/vending/clothing/bos,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/f13/brotherhood/armory)
 "hMR" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/wood/wood_common,
@@ -10382,7 +10292,6 @@
 /area/f13/building/museum)
 "iBP" = (
 /obj/structure/table/reinforced,
-/obj/machinery/cell_charger,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 1
 	},
@@ -10442,30 +10351,6 @@
 	},
 /area/f13/brotherhood)
 "iGb" = (
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_m,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
-/obj/item/clothing/under/f13/bosformsilver_f,
 /obj/structure/closet{
 	anchored = 1;
 	name = "formal attire closet"
@@ -11980,15 +11865,6 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"kUa" = (
-/obj/structure/rack,
-/obj/item/clothing/head/bomb_hood/security,
-/obj/item/clothing/suit/bomb_suit/security,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 1
-	},
-/area/f13/brotherhood/armory)
 "kUs" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
@@ -13358,7 +13234,6 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/machinery/autolathe/ammo/unlocked,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 1
 	},
@@ -13986,7 +13861,6 @@
 /area/f13/tunnel)
 "nKw" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superlow,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 8
 	},
@@ -14086,40 +13960,11 @@
 /turf/closed/wall/r_wall/rust,
 /area/f13/tunnel)
 "nPD" = (
-/obj/item/clothing/under/f13/recon,
-/obj/item/clothing/under/f13/recon,
-/obj/item/clothing/under/f13/recon,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/under/f13/recon,
-/obj/item/clothing/under/f13/recon,
-/obj/item/clothing/under/f13/recon,
-/obj/item/clothing/under/f13/recon,
-/obj/item/clothing/under/f13/recon,
-/obj/item/storage/belt/military/army,
-/obj/item/storage/belt/military/army,
-/obj/item/storage/belt/military/army,
-/obj/item/storage/belt/military/army,
-/obj/item/storage/belt/military/army,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
 /obj/structure/closet{
 	anchored = 1;
 	name = "formal attire closet"
 	},
 /obj/effect/turf_decal/bot_red,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 4
 	},
@@ -14656,8 +14501,6 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/mortar_shells,
-/obj/item/mortar_kit,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 1
 	},
@@ -15577,21 +15420,6 @@
 	},
 /area/f13/tunnel)
 "pJG" = (
-/obj/structure/closet/crate/secure/weapon{
-	anchored = 1
-	},
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
 /obj/effect/turf_decal/bot_red,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/darkred/corner{
@@ -15996,11 +15824,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/building/museum)
-"qmp" = (
-/obj/machinery/vending/engineering,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/f13/brotherhood/armory)
 "qmt" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /obj/effect/turf_decal/weather/dirt,
@@ -16012,15 +15835,6 @@
 /obj/structure/sign/poster/official/foam_force_ad,
 /turf/closed/wall/r_wall/f13/vault,
 /area/f13/brotherhood)
-"qnu" = (
-/obj/structure/rack,
-/obj/item/gun/energy/laser/pistol,
-/obj/item/gun/energy/laser/pistol,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 1
-	},
-/area/f13/brotherhood/armory)
 "qof" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
@@ -17734,11 +17548,6 @@
 "sDR" = (
 /turf/open/floor/plasteel/darkred/side,
 /area/f13/brotherhood)
-"sEa" = (
-/obj/machinery/workbench,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/darkred/side,
-/area/f13/brotherhood/armory)
 "sEc" = (
 /obj/machinery/light{
 	dir = 1
@@ -18769,7 +18578,6 @@
 /area/f13/brotherhood)
 "uab" = (
 /obj/machinery/light,
-/obj/structure/closet/crate/medical,
 /obj/effect/turf_decal/bot_red,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/darkred/side,
@@ -19119,7 +18927,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building/museum)
 "uBR" = (
-/obj/item/twohanded/sledgehammer/supersledge,
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/darkred/side{
@@ -19251,15 +19058,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/tunnel/bighorn)
 "uPJ" = (
-/obj/structure/closet/crate/secure/weapon{
-	anchored = 1
-	},
-/obj/item/grenade/barrier,
-/obj/item/grenade/barrier,
-/obj/item/grenade/barrier,
-/obj/item/grenade/flashbang,
-/obj/item/grenade/flashbang,
-/obj/item/grenade/chem_grenade/teargas,
 /obj/effect/turf_decal/bot_red,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/darkred/corner,
@@ -19614,7 +19412,6 @@
 "vmp" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/highmid,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 1
 	},
@@ -20099,21 +19896,6 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/brotherhood/leisure)
-"vXx" = (
-/obj/item/clothing/under/f13/bosform_f,
-/obj/item/clothing/under/f13/bosform_f,
-/obj/item/clothing/under/f13/bosform_f,
-/obj/item/clothing/under/f13/bosform_m,
-/obj/item/clothing/under/f13/bosform_m,
-/obj/item/clothing/under/f13/bosform_m,
-/obj/structure/closet{
-	anchored = 1;
-	name = "formal attire closet"
-	},
-/turf/open/floor/plasteel/darkred/side{
-	dir = 8
-	},
-/area/f13/brotherhood/armory)
 "vYx" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gibbearcore"
@@ -20750,16 +20532,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/offices1st)
-"wVL" = (
-/obj/machinery/autolathe/constructionlathe,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 1
-	},
-/area/f13/brotherhood/armory)
 "wVM" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
@@ -21052,18 +20824,6 @@
 	},
 /area/f13/brotherhood/offices1st)
 "xum" = (
-/obj/structure/closet/crate/secure/weapon{
-	anchored = 1
-	},
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
 /obj/effect/turf_decal/bot_red,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/darkred/side{
@@ -21190,13 +20950,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/brotherhood/reactor)
-"xDG" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/energy/low,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 4
-	},
-/area/f13/brotherhood/armory)
 "xEg" = (
 /obj/structure/simple_door/wood{
 	name = "Bighorn Residence"
@@ -21222,30 +20975,11 @@
 	},
 /area/f13/followers)
 "xEX" = (
-/obj/item/clothing/under/f13/roving,
-/obj/item/clothing/under/f13/roving,
-/obj/item/clothing/under/f13/roving,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
-/obj/item/clothing/under/syndicate/brotherhood,
 /obj/structure/closet{
 	anchored = 1;
 	name = "Disguise Closet"
 	},
 /obj/effect/turf_decal/bot_red,
-/obj/effect/spawner/lootdrop/f13/armor/tier2,
-/obj/effect/spawner/lootdrop/f13/armor/tier2,
-/obj/effect/spawner/lootdrop/f13/armor/tier2,
-/obj/item/clothing/under/f13/keksweater,
-/obj/item/clothing/under/f13/keksweater,
-/obj/item/clothing/under/f13/keksweater,
 /turf/open/floor/plasteel/darkred/side{
 	dir = 5
 	},
@@ -72865,8 +72599,8 @@ sDR
 pna
 jbz
 bkj
-cTr
-vXx
+aGN
+iGb
 iGb
 aGN
 vwE
@@ -74924,7 +74658,7 @@ dxA
 hAz
 hqe
 dxA
-qmp
+jfH
 axe
 qyx
 qyx
@@ -75181,7 +74915,7 @@ xVA
 nKw
 xjH
 xVA
-hMQ
+jfH
 oPY
 sLQ
 vKT
@@ -75435,7 +75169,7 @@ mKl
 oPY
 xum
 jfH
-gGe
+hAz
 hqe
 dxA
 nxn
@@ -75955,7 +75689,7 @@ nxn
 tsV
 vwE
 vwE
-gxz
+eii
 oPY
 vaL
 bRg
@@ -76204,15 +75938,15 @@ tsi
 dZP
 mKl
 oPY
-qnu
+vmp
 nxn
-xDG
+hAz
 nxn
 aoY
 mDf
 nxn
 jfH
-sEa
+xeo
 oPY
 vaL
 bRg
@@ -76461,15 +76195,15 @@ tsi
 iFV
 aTN
 oPY
-kUa
+vmp
 nxn
-eOS
+nKw
 nxn
-aoY
+bfI
 cdI
 nxn
 nxn
-eFw
+xeo
 oPY
 kHa
 fZM
@@ -76723,7 +76457,7 @@ nxn
 nxn
 jfH
 uab
-wVL
+cdI
 jfH
 nxn
 aYb

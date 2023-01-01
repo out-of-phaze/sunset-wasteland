@@ -275,16 +275,6 @@
 	},
 /area/f13/city)
 "dy" = (
-/obj/structure/closet/crate/secure/weapon,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
 /obj/effect/turf_decal/stripes/white/box{
 	color = "#a67c33"
 	},
@@ -429,15 +419,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
-"fw" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/effect/spawner/lootdrop/f13/advcrafting,
-/obj/effect/spawner/lootdrop/f13/attachments,
-/obj/effect/spawner/lootdrop/f13/attachments,
-/obj/effect/spawner/lootdrop/f13/attachments,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "fy" = (
@@ -1310,16 +1291,10 @@
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
-"pL" = (
-/obj/machinery/sheetifier,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "pM" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/item/stack/ore/blackpowder/twenty,
-/obj/machinery/autolathe/ammo/unlocked_basic,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "pN" = (
@@ -1355,10 +1330,6 @@
 	dir = 8
 	},
 /turf/open/transparent/openspace,
-/area/f13/ncr)
-"qe" = (
-/obj/machinery/workbench/forge,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "qh" = (
 /obj/structure/railing/corner{
@@ -1674,27 +1645,12 @@
 /obj/item/bedsheet/blue,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
-"tW" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/turf_decal/stripes/white/box{
-	color = "#a67c33"
-	},
-/obj/item/ammo_box/a556,
-/obj/item/ammo_box/a556,
-/obj/item/ammo_box/a556,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "uh" = (
 /obj/machinery/light/broken,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/wood/wood_common,
 /area/f13/city)
-"um" = (
-/obj/structure/closet/crate/mortar_shells,
-/obj/item/mortar_kit,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "uo" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -1713,10 +1669,6 @@
 /obj/effect/turf_decal/stripes/white/box{
 	color = "#a67c33"
 	},
-/obj/item/ammo_box/shotgun/bean,
-/obj/item/ammo_box/shotgun/bean,
-/obj/item/ammo_box/shotgun/slug,
-/obj/item/ammo_box/shotgun/slug,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "uy" = (
@@ -1748,11 +1700,6 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/ncr)
-"uR" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "uV" = (
 /obj/structure/window/fulltile/house{
@@ -1971,12 +1918,6 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/wasteland/warren)
-"wH" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/blueprintLow,
-/obj/effect/spawner/lootdrop/f13/blueprintLow,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "wJ" = (
 /obj/structure/table,
 /obj/effect/decal/remains/human,
@@ -2461,22 +2402,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ncr)
-"BY" = (
-/obj/structure/closet/crate/secure/weapon,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/item/ammo_box/magazine/m9mm,
-/obj/effect/turf_decal/stripes/white/box{
-	color = "#a67c33"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "BZ" = (
 /obj/item/toner,
 /obj/effect/decal/cleanable/dirt,
@@ -2682,10 +2607,6 @@
 "EA" = (
 /turf/closed/wall/f13/supermart,
 /area/f13/ncr)
-"EE" = (
-/obj/structure/reagent_dispensers/barrel/explosive,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "EK" = (
 /obj/structure/railing,
 /turf/open/transparent/openspace,
@@ -2754,28 +2675,6 @@
 	},
 /obj/structure/guncase{
 	anchored = 1
-	},
-/obj/item/gun/ballistic/automatic/service,
-/obj/item/gun/ballistic/automatic/service,
-/obj/item/gun/ballistic/automatic/service,
-/obj/item/gun/ballistic/automatic/service,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
-"FA" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/metal{
-	amount = 50
-	},
-/obj/item/stack/sheet/metal{
-	amount = 50
-	},
-/obj/item/stack/sheet/metal{
-	amount = 50
-	},
-/obj/item/stack/sheet/metal{
-	amount = 50
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
@@ -3087,34 +2986,14 @@
 /mob/living/simple_animal/hostile/renegade/grunt,
 /turf/open/floor/carpet/cyan,
 /area/f13/city)
-"JI" = (
-/obj/machinery/workbench,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "JO" = (
 /turf/closed/indestructible/f13vaultrusted,
 /area/f13/ncr)
 "JR" = (
 /obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/resourcespawner,
-/obj/effect/spawner/lootdrop/f13/resourcespawner,
-/obj/effect/spawner/lootdrop/f13/resourcespawner,
-/obj/effect/spawner/lootdrop/f13/resourcespawner,
-/obj/effect/spawner/lootdrop/f13/resourcespawner,
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
-"JS" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/turf_decal/stripes/white/box{
-	color = "#a67c33"
-	},
-/obj/item/gun/ballistic/shotgun/trench,
-/obj/item/gun/ballistic/shotgun/trench,
-/obj/item/gun/ballistic/shotgun/trench,
-/obj/item/gun/ballistic/shotgun/trench,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "JU" = (
@@ -3853,7 +3732,6 @@
 "Si" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack/shelf_metal,
-/obj/item/mortar_shell/smoke,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "St" = (
@@ -4157,18 +4035,6 @@
 /obj/structure/sign/poster/official/twelve_gauge{
 	pixel_x = -32
 	},
-/obj/machinery/autolathe,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
-"Vw" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/turf_decal/stripes/white/box{
-	color = "#a67c33"
-	},
-/obj/item/gun/ballistic/automatic/pistol/ninemil,
-/obj/item/gun/ballistic/automatic/pistol/ninemil,
-/obj/item/gun/ballistic/automatic/pistol/ninemil,
-/obj/item/gun/ballistic/automatic/pistol/ninemil,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "VC" = (
@@ -4280,10 +4146,6 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/wasteland/ncr)
-"Wk" = (
-/obj/machinery/ammobench,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "Ws" = (
 /obj/item/toy/tennis/yellow,
 /turf/open/floor/f13{
@@ -4404,17 +4266,6 @@
 /obj/structure/table,
 /turf/open/floor/wood/wood_wide/wood_wide_light,
 /area/f13/city)
-"Xo" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/turf_decal/stripes/white/box{
-	color = "#a67c33"
-	},
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/a357box,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/ncr)
 "Xs" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowbroken"
@@ -30853,10 +30704,10 @@ sC
 JO
 JO
 Ks
-tW
-Xo
 ux
-BY
+ux
+ux
+dy
 dy
 Ks
 Ks
@@ -31109,7 +30960,7 @@ sC
 sC
 JO
 JO
-Vw
+ux
 Sg
 Sg
 Sg
@@ -31623,7 +31474,7 @@ sC
 sC
 JO
 JO
-JS
+ux
 fm
 lo
 Sg
@@ -32138,9 +31989,9 @@ sC
 sC
 JO
 Ks
-uR
-uR
-uR
+CQ
+CQ
+CQ
 Ks
 Ks
 YF
@@ -33165,11 +33016,11 @@ sC
 sC
 sC
 JO
-pL
+Sg
 Sg
 pM
 Vu
-JI
+Sg
 Sg
 lo
 IZ
@@ -33422,7 +33273,7 @@ sC
 sC
 sC
 JO
-wH
+CQ
 Sg
 Sg
 Sg
@@ -33679,13 +33530,13 @@ sC
 sC
 sC
 JO
-qe
+Sg
 Sg
 Si
 CQ
 CQ
 Sg
-Wk
+Sg
 IZ
 vA
 sC
@@ -34193,13 +34044,13 @@ sC
 sC
 sC
 JO
-FA
+CQ
 Sg
-um
+Sg
 JR
-EE
+Sg
 lo
-fw
+CQ
 Ks
 mu
 sC

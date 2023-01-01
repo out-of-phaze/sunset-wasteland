@@ -4043,6 +4043,12 @@
 	icon_state = "graveldirtedge"
 	},
 /area/f13/raiders)
+"dKF" = (
+/mob/living/simple_animal/hostile/deathclaw,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain1"
+	},
+/area/f13/wasteland/ncr)
 "dKP" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -13883,6 +13889,12 @@
 	},
 /turf/open/indestructible/ground/outside/water,
 /area/f13/city)
+"neG" = (
+/mob/living/simple_animal/hostile/deathclaw,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/wasteland/ncr)
 "neY" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4";
@@ -25490,6 +25502,12 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/raiders)
+"xNT" = (
+/mob/living/simple_animal/hostile/deathclaw,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
+	},
+/area/f13/wasteland/ncr)
 "xOe" = (
 /turf/closed/wall/f13/sunset/brick_small,
 /area/f13/city)
@@ -52194,7 +52212,7 @@ hgd
 qjT
 jXh
 gaL
-jXh
+neG
 jqi
 jXh
 jXh
@@ -52712,7 +52730,7 @@ jXh
 jqi
 jXh
 jXh
-gaL
+dKF
 ykB
 gVr
 gaL
@@ -54507,7 +54525,7 @@ hgd
 bYc
 jXh
 jXh
-jXh
+neG
 kjL
 cjN
 jXh
@@ -57339,7 +57357,7 @@ kjL
 jXh
 jXh
 gaL
-ykB
+xNT
 mUf
 ghE
 fdR
@@ -58876,7 +58894,7 @@ hgd
 qjT
 gaL
 jXh
-jXh
+neG
 kjL
 jXh
 jXh

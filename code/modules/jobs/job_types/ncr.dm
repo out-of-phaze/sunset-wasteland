@@ -22,6 +22,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	faction = FACTION_NCR
 	exp_type = EXP_TYPE_NCR
 
+	custom_spawn_text = "As the NCR, you are <b>forbidden</b> from raiding other factions."
 	access = list(ACCESS_NCR)
 	minimal_access = list(ACCESS_NCR)
 	forbids = "The NCR forbids: Chem and drug use such as jet or alcohol while on duty. Execution of unarmed or otherwise subdued targets without authorisation."

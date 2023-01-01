@@ -8,6 +8,7 @@
 	total_positions = -1
 	spawn_positions = -1
 	description = "The most broad and open role, you have arrived in the region for purposes known only to you. If you're new, the settlement of Bighorn to the southwest may prove a valuable first stop. Try to make a living for yourself - or simply survive - and craft your own unique story."
+	custom_spawn_text = "As a wastelander, you are <b>forbidden</b> from raiding other factions."
 	supervisors = "fate"
 	selection_color = "#dddddd"
 

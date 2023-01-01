@@ -13,6 +13,7 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	description = "You're a member of one of many tribes, all brought together in a singular goal after the arrival of the Legion and NCR. Survival. \
 	Who you were no longer matters. What you do is prime. Especially so in the newfound faith, that of the machine spirits. They surround you. \
 	Are you worthy of their attention?"
+	custom_spawn_text = "As a tribal, you are <b>forbidden</b> from raiding other factions."
 	supervisors = "the stars above"
 
 /datum/outfit/job/tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)

@@ -8,6 +8,7 @@
 	minimal_access = list(ACCESS_ENCLAVE, ACCESS_SECURITY, ACCESS_AI_UPLOAD)
 	forbids = "Enclave taboos: Aiding Brotherhood or Republic members in any way no matter how small."
 	enforces = "Enclave rules: Stay in uniform. Act mature and respectful. Obey orders and always remember you are fighting for the only true legitimate power in this land of savages. Wearing gasmasks outside the compound is encouraged but not required."
+	custom_spawn_text = "As an Enclave member, you are <b>forbidden</b> from raiding other factions."
 	objectivesList = list("Department of Defense advisory: Collect resources, attrition is depleting our reserves.", "Science Divison advisory: Capture human subjects for experiments, alive.")
 
 /datum/outfit/job/enclave

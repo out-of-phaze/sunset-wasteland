@@ -23,6 +23,7 @@ Will probably start phasing more of this to actual custom access as we go.
 /datum/job/bighorn
 	exp_type = EXP_TYPE_BIGHORN
 	faction = FACTION_BIGHORN
+	custom_spawn_text = "As a citizen of Bighorn, you are <b>forbidden</b> from raiding other factions."
 
 /*
 Mayor

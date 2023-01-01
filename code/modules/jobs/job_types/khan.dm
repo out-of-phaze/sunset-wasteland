@@ -5,6 +5,7 @@
 	exp_type = EXP_TYPE_KHAN
 	access = list(ACCESS_KHAN)
 	minimal_access = list(ACCESS_KHAN)
+	custom_spawn_text = "As a Khan, you are <b>forbidden</b> from raiding other factions."
 	forbids = "THE KHANS DISCOURAGES: Weakness, Sabotaging other Khans."
 	enforces = "THE KHANS ENCOURAGES: Displays of Strength. Assisting the 'Trade'."
 

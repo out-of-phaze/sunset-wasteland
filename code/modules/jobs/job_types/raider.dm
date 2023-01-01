@@ -11,6 +11,7 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	minimal_access = list(ACCESS_RAIDER)
 	exp_requirements = 300
 	exp_type = EXP_TYPE_OUTLAW
+	custom_spawn_text = "As a Raider, you are <b>forbidden</b> from raiding other factions."
 
 /datum/job/raider/f13raider
 	title = "Raider"

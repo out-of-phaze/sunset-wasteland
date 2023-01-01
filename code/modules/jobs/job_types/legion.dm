@@ -17,6 +17,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 	selection_color = "#ffeeee"
 	faction = FACTION_LEGION
 
+	custom_spawn_text = "As Caesar's Legion, you are <b>required</b> to engage in PVP. Activities that distract you from PVP are forbidden."
 	forbids = "The Legion forbids: Using chemicals the likes of stimpacks, buffout, med-x, et cetera. Ghouls or mutants serving. Women fighting (self defense and suicide allowed). Slaves carrying weapons. Reliance on technology & Killing Legion members in secret, only if according to law and in public is it acceptable."
 	enforces = "The Legion demands: Obeying the orders of superiors. A Latin name. Wearing the uniform (Unless acting as a Frumentarius). Expect death as punishment for failing to obey."
 	objectivesList = list("Focus on the tribals, win them over or intimidate them.", "Focus on Bighorn, display power.", "Send out patrols and establish checkpoints to curb use of digusting drugs and degenerate behaviour.", "Flagstaff requests more workers: acquire slaves, train them if possible, send them east for breaking if not.", "Make sure no other faction than the Khans gains dominance in Bighorn, if they remain neutral it can be used to the Legion's advantage.")

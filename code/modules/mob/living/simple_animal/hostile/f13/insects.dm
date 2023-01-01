@@ -295,10 +295,10 @@
 	taunt_chance = 30
 	maxHealth = 40
 	health = 40
-	harm_intent_damage = 8
-	obj_damage = 20
-	melee_damage_lower = 20
-	melee_damage_upper = 20
+	harm_intent_damage = 800
+	obj_damage = 2000
+	melee_damage_lower = 2000
+	melee_damage_upper = 2000
 	attack_verb_simple = "stings"
 	attack_sound = 'sound/creatures/cazador_attack.ogg'
 	speak_emote = list("buzzes")
@@ -337,8 +337,8 @@
 	maxHealth = 25
 	health = 25
 	speed = -4.5
-	melee_damage_lower = 5
-	melee_damage_upper = 10
+	melee_damage_lower = 500
+	melee_damage_upper = 1000
 	guaranteed_butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/cazador_meat = 1, /obj/item/stack/sheet/animalhide/chitin = 1, /obj/item/stack/sheet/sinew = 1)
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/cazador_meat = 1, /obj/item/stack/sheet/animalhide/chitin = 1)
 	butcher_difficulty = 1.5
@@ -358,7 +358,7 @@
 
 /datum/reagent/toxin/cazador_venom/on_mob_life(mob/living/M)
 	if(volume >= 15)
-		M.adjustToxLoss(5, updating_health = FALSE)
+		M.adjustToxLoss(500, updating_health = FALSE)
 	..()
 	return TRUE // update health at end of tick
 

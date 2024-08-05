@@ -333,3 +333,6 @@ GLOBAL_LIST_INIT(pipe_paint_colors, list(
 		"violet" = rgb(64,0,128),
 		"yellow" = rgb(255,198,0)
 ))
+
+// DUNGEON ATMOS
+#define DUNGEON_ONE_ATMOS "DUNGEON_ONE_ATMOS"

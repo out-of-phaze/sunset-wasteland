@@ -30,6 +30,8 @@ SUBSYSTEM_DEF(autotransfer)
 /datum/controller/subsystem/autotransfer/fire()
 	if(world.time < targettime)
 		return
+	if(SSshuttle.endvote_passed) // Don't start a new vote if one's already passed.
+		return
 	if(maxvotes == NO_MAXVOTES_CAP || maxvotes > curvotes)
 		SSvote.initiate_vote("transfer","server")
 		targettime = targettime + voteinterval
